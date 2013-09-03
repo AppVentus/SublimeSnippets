@@ -18,13 +18,13 @@ PHP
 ---
 
 
-'vd'+tab => var_dump();
-'vde'+tab => var_dump();exit;
-'pr'+tab => print_r();
-'pre'+tab => print_r();exit;
-'die'+tab => die();
+    'vd'+tab => var_dump();
+    'vde'+tab => var_dump();exit;
+    'pr'+tab => print_r();
+    'pre'+tab => print_r();exit;
+    'die'+tab => die();
 
 TWIG
 ----
 
-'trans'+tab => {{ 'your.key'|trans|desc('your.trad') }}
+    'trans'+tab => {{ 'your.key'|trans|desc('your.trad') }}

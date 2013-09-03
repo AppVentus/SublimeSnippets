@@ -4,6 +4,16 @@ SublimeSnippets
 This package provides some usefull snippets for sublimetext. Fell free to add yours !
 
 
+
+INSTALATION
+===========
+
+go to the "Packages" directory in terminal, and simply
+
+    git clone git@github.com:AppVentus/SublimeSnippets.git
+
+USAGE
+=====
 PHP
 ---
 

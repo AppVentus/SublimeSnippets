@@ -1,0 +1,16 @@
+
+<snippet>
+    <content><![CDATA[
+${2/.+/private \$$0;/}$0 ${4/.+/\nprivate \$$0;/}$0 ${6/.+/\nprivate \$$0;/}$0
+
+public function __construct(${1} \$${2:foo}, ${3} \$${4:bar}, ${5} \$${6:bar})
+{
+    ${2/.+/$this->$0 = \$$0;/}$0 ${4/.+/\n\t$this->$0 = \$$0;/}$0 ${6/.+/\n\t$this->$0 = \$$0;/}$0
+}
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>__con</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.php</scope>
+    <description>function __construct 2</description>
+</snippet>
